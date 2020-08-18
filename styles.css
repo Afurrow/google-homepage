@@ -1,0 +1,60 @@
+.nav {
+    color: rgb(34,34,34);
+    align-items: center;
+    height: 45px;
+    flex-basis: auto;
+}
+
+.left-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    float: left;
+    margin: 7px 0px 0px 10px;
+}
+
+.right-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    float: right;
+    margin: 7px 10px 0px 0px;
+}
+
+.nav-def {
+    display: inline-block;
+    align-items: center;
+    width: 50px;
+    font-size: 13px;
+    margin: 0 5px 0 5px;
+}
+
+.nav-Menu {
+    display: inline-block;   
+    width: 30px;
+    height: auto;
+}
+
+.Logo {
+    display: block;
+    margin: 90px auto 0px auto;
+}
+
+.srch-box {
+    display: block;
+    margin: 25px auto 0px auto;
+    width: 550px;
+    font-size: 16px;
+    height: 34px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#bttns {
+    display: flex;
+    margin: 25px auto 0px auto;
+    flex-direction: row;
+    justify-content: center;
+}
